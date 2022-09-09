@@ -1,0 +1,21 @@
+.btnCreate,
+.btnCreateDisable {
+  border: none;
+  margin-top: 36px;
+  width: 400px;
+  height: 56px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.btnCreate {
+  background-color: #78c147;
+  cursor: pointer;
+}
+
+.btnCreateDisable {
+  background-color: #a1d47e;
+}

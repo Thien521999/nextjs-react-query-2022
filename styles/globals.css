@@ -1,26 +1,32 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+.btn-load_more{
+  background: white;
+  border: 2px solid green;
+  padding: 10px 20px;
+  margin: 10px auto;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: block;
+  cursor: pointer;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.products{
+  width: 100%;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 2rem 1.2rem;
+  justify-items: center;
 }
 
-* {
-  box-sizing: border-box;
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.noText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
